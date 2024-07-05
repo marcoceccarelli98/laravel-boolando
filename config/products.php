@@ -15,8 +15,8 @@ $data = '{
       {
         "name": "Roses Tee",
         "brand": "Guess",
-        "image": "../public/img/2.webp",
-        "imageAlt": "../public/img/2b.webp",
+        "image": "/img/2.webp",
+        "imageAlt": "/img/2b.webp",
         "price": 29.99,
         "discount": 30,
         "sustainability": false,
@@ -25,8 +25,8 @@ $data = '{
       {
         "name": "Voglia di colori pastello",
         "brand": "Come Zucchero Filato",
-        "image": "../public/img/3.webp",
-        "imageAlt": "../public/img/3b.webp",
+        "image": "/img/3.webp",
+        "imageAlt": "/img/3b.webp",
         "price": 184.99,
         "discount": 30,
         "sustainability": false,
@@ -35,8 +35,8 @@ $data = '{
       {
         "name": "Tee Unisex",
         "brand": "Levi\'s",
-        "image": "../public/img/4.webp",
-        "imageAlt": "../public/img/4b.webp",
+        "image": "/img/4.webp",
+        "imageAlt": "/img/4b.webp",
         "price": 29.99,
         "discount": 50,
         "sustainability": false,
@@ -45,8 +45,8 @@ $data = '{
       {
         "name": "Stripe Bodice",
         "brand": "Maya Deluxe",
-        "image": "../public/img/5.webp",
-        "imageAlt": "../public/img/5b.webp",
+        "image": "/img/5.webp",
+        "imageAlt": "/img/5b.webp",
         "price": 99.99,
         "sustainability": false,
         "like": false
@@ -54,8 +54,8 @@ $data = '{
       {
         "name": "Maglione - Black",
         "brand": "Esprit",
-        "image": "../public/img/6.webp",
-        "imageAlt": "../public/img/6b.webp",
+        "image": "/img/6.webp",
+        "imageAlt": "/img/6b.webp",
         "price": 29.99,
         "sustainability": true,
         "like": false

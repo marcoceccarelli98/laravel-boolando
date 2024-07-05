@@ -5,8 +5,10 @@
 
 @section('main')
 
-    @foreach ($data['products'] as $product)
+<div class="mc-row">
 
+    @foreach ($data['products'] as $product)
+    <div class="col-33">
         <div class="card-content">
             <!-- IMAGES -->
             <div class="img-content">
@@ -20,24 +22,25 @@
                     </span>
                     <span class="sus-label" v-show="sustainability"> Sostenibilità </span>
                 </div>
-            <div
-            :class="{ liked: this.like }"
-            class="hearts-label"
-            @click="likeButton(like)">
+                <div
+                :class="{ liked: this.like }"
+                class="hearts-label"
+                @click="likeButton(like)">
                 &hearts;
             </div>
         </div>
         <!-- TEXT -->
         <div class="text">
             <div class="brand">{{ $product['brand'] }}</div>
-                <div class="item">{{ $product['name'] }}</div>
-                    <div class="price">
-                        {{-- {{ calcDiscount($product['price'], $product['discount']) }} &euro; --}}
-                    <span class="discount-txt" v-show="discount">{{ $product['price'] }} &euro;</span>
-                </div>
+            <div class="item">{{ $product['name'] }}</div>
+            <div class="price">
+                {{-- {{ calcDiscount($product['price'], $product['discount']) }} &euro; --}}
+                <span class="discount-txt" v-show="discount">{{ $product['price'] }} &euro;</span>
             </div>
         </div>
-
+    </div>
+    </div>
     @endforeach
+</div>
 
 @endsection
