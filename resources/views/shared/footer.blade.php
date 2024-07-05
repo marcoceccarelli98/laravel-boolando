@@ -13,11 +13,11 @@
           <div class="social">
             <h4>Trovaci anche su</h4>
             <div class="social-logo">
-              <img src="/img/twitter-square-icon.webp" alt="twitter" />
-              <img src="/img/facebook-square-icon.png" alt="facebook" />
-              <img src="/img/Black_Instagram_icon.svg.png" alt="instagram" />
-              <img src="/img/pinterest-square-512.webp" alt="pinterest" />
-              <img src="/img/youtube-square.png" alt="youtube" />
+              <img src="{{ Vite::asset('resources/img/twitter-square-icon.webp') }}" alt="twitter" />
+              <img src="{{ Vite::asset('resources/img/facebook-square-icon.png') }}" alt="facebook" />
+              <img src="{{ Vite::asset('resources/img/Black_Instagram_icon.svg.png') }}" alt="instagram" />
+              <img src="{{ Vite::asset('resources/img/pinterest-square-512.webp') }}" alt="pinterest" />
+              <img src="{{ Vite::asset('resources/img/youtube-square.png') }}" alt="youtube" />
             </div>
           </div>
         </div>

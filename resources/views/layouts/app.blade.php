@@ -12,7 +12,11 @@
 <body>
     @include('shared.header')
 
-   
+    <main>
+        <section>
+            @yield('main')
+        </section>
+    </main>
 
     @include('shared.footer')
 </body>
