@@ -1,23 +1,24 @@
 @import "./variables";
 
 .card-content {
-    img {
-        width: 100%;
-    }
-    .img-content {
-        position: relative;
-    }
-
     .hover-pic {
         display: none;
     }
 
-    .content:hover .main-pic {
-        display: none;
+    &:hover {
+        .main-pic {
+            display: none;
+        }
+        .hover-pic {
+            display: inline-block;
+        }
     }
 
-    .content:hover .hover-pic {
-        display: inline-block;
+    .img-content {
+        position: relative;
+        img {
+            width: 100%;
+        }
     }
 
     /* ----- TEXT ----- */
@@ -78,15 +79,5 @@
         &.liked {
             color: $text-hearts-hover;
         }
-        // About 2 hour on this and the result not so beuty :')
-        // &:hover {
-        //   color: $text-hearts-hover;
-        // }
-        // &.liked {
-        //   color: $text-hearts-hover;
-        //   &:hover {
-        //     color: $text-hearts;
-        //   }
-        // }
     }
 }
