@@ -21,6 +21,16 @@
     align-items: center;
 }
 
+/* FONT SIZE */
+
+.fs-20px {
+    font-size: 20px;
+}
+
+.fs-40px {
+    font-size: 40px;
+}
+
 /* PADDING */
 .py-10 {
     padding: 10px 0;
@@ -85,9 +95,8 @@
 }
 
 .lilac {
-    color: #7189D9;
+    color: #7189d9;
 }
-
 
 /* BACKGROUNDS */
 .bg-orange {
@@ -111,7 +120,7 @@
 }
 
 .bg-lightgrey {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
 }
 
 .bg-green {
@@ -119,7 +128,7 @@
 }
 
 .bg-darkgrey {
-    background-color: #23272A;
+    background-color: #23272a;
 }
 
 .bg-aquamarine {
@@ -127,5 +136,5 @@
 }
 
 .bg-lilac {
-    background-color: #8EA1E1;
+    background-color: #8ea1e1;
 }

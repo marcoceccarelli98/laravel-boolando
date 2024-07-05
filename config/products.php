@@ -1,7 +1,6 @@
 <?php
 
-$data = '{
-    "products": [
+$data = '[
       {
         "name": "Relaxed Fit Tee Unisex",
         "brand": "Levi\'s",
@@ -60,7 +59,6 @@ $data = '{
         "sustainability": true,
         "like": false
       }
-    ]
-  }';
+    ]';
 
 return json_decode($data, true);

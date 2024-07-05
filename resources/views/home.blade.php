@@ -1,5 +1,5 @@
 
-{{-- @dd($data['products']) --}}
+{{-- @dd($data) --}}
 
 @extends('layouts.app')
 

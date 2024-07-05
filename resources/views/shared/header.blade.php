@@ -3,9 +3,9 @@
       <div class="mc-row">
         <div class="col-33">
           <div class="categories">
-            <a href="">Donna</a>
-            <a href="">Uomo</a>
-            <a href="">Bambini</a>
+            @foreach ($data['menu'] as $voice)
+            <a href="{{ $voice['link'] }}">{{ $voice['title'] }}</a>
+            @endforeach
           </div>
         </div>
         <div class="col-33 text-center">

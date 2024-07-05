@@ -15,7 +15,50 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $data = config('products');
+    $menu = [
+        [
+            'title' => 'Home',
+            'link' => route('home')
+        ],
+        [
+            'title' => 'About',
+            'link' => route('about')
+        ],
+        [
+            'title' => 'Products',
+            'link' => route('home')
+        ]
+    ];
+
+    $data = [
+        'products' => config('products'),
+        'menu' => $menu
+    ];
 
     return view('home', compact('data'));
 })->name('home');
+
+Route::get('/about', function () {
+
+    $menu = [
+        [
+            'title' => 'Home',
+            'link' => route('home')
+        ],
+        [
+            'title' => 'About',
+            'link' => route('about')
+        ],
+        [
+            'title' => 'Products',
+            'link' => route('home')
+        ]
+    ];
+
+    $data = [
+        'products' => config('products'),
+        'menu' => $menu
+    ];
+
+    return view('about', compact('data'));
+})->name('about');
